@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { fetchData } from "./APIcall";
 import './App.css';
 import Books from "./Components/Books/Books";
-import Nav from "./Components/Nav/Nav";
+import SingleBook from './Components/SingleBook/SingleBook';
+// import Nav from "./Components/Nav/Nav";
 import { Route } from "react-router-dom";
 
 class App extends Component {
@@ -15,11 +16,11 @@ class App extends Component {
   }
 
   componentDidMount = async () => {
+    console.log('hi')
     this.setState({ loading: true });
     try {
       const bookList = await fetchData();
-      const data = await bookList.json();
-      this.setState({ booksData: data, loading: false }); 
+      this.setState({ booksData: bookList, loading: false }); 
     } catch {
       this.setState({ 
         error: "Sorry, no books are available."
@@ -27,15 +28,16 @@ class App extends Component {
     }
   };
 
-  searchPath = (input) => {
+  searchBook = (input) => {
     this.setState({ searchedBook: input });
   };
 
   render() {
+    console.log('try', this.state.booksData)
     return (
       <div>
-        <Nav />
-        <Route exact path= "/" render={() => <Books books={this.state.booksData} />} />
+        <Route exact path= '/' render={() => <Books books={this.state.booksData} />} />
+        <Route path='/:id' render={({ match }) => <SingleBook bookId={match.params.id} /> } />
       </div>
     )
   }
