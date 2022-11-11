@@ -6,8 +6,7 @@ const Books = ({ books, searchedBook }) => {
     console.log(books)
     let bookCards;
     if (!searchedBook) {
-        bookCards = books.filter((book) => console.log('book', book)
-        // book.genre.toLowerCase().includes(searchedBook)
+        bookCards = books.filter((book) => book.genre.toLowerCase().includes(searchedBook)
         );
     } else {
         bookCards = books;

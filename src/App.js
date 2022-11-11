@@ -16,7 +16,6 @@ class App extends Component {
   }
 
   componentDidMount = async () => {
-    console.log('hi')
     this.setState({ loading: true });
     try {
       const bookList = await fetchData();
@@ -33,7 +32,6 @@ class App extends Component {
   };
 
   render() {
-    console.log('try', this.state.booksData)
     return (
       <div>
         <Route exact path= '/' render={() => <Books books={this.state.booksData} />} />
