@@ -14,7 +14,6 @@ class SingleBook extends Component {
     componentDidMount = async () => {
         try { 
         const bookList = await fetchData();
-        //  const data = await bookList.json();
          const bookMatch = await bookList.find(book => book.id === Number(this.props.bookId));
          this.setState({ book: bookMatch, loading: false });
         } catch {
