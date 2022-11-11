@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
 import { fetchData } from "./APIcall";
 import './App.css';
 import Books from "./Components/Books/Books";
 import SingleBook from './Components/SingleBook/SingleBook';
-// import Nav from "./Components/Nav/Nav";
-import { Route } from "react-router-dom";
+import Nav from "./Components/Nav/Nav";
+import Search from "./Components/Search/Search";
 
 class App extends Component {
   constructor() {
@@ -12,7 +13,7 @@ class App extends Component {
     this.state = {
       booksData: [],
       searchedBook: ""
-    }
+    };
   }
 
   componentDidMount = async () => {
@@ -34,12 +35,21 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Route exact path= '/' render={() => <Books books={this.state.booksData} />} />
-        <Route path='/:id' render={({ match }) => <SingleBook bookId={match.params.id} /> } />
+        <Nav />
+        <Switch>
+          <Route exact path= '/' render={() => (
+            <div>
+              <Search searchBook={this.searchBook} />
+              <Books books={this.state.booksData} searchedBook={this.state.searchedBook}
+              />
+            </div>
+            )} 
+           />
+          <Route path='/:id' render={({ match }) => <SingleBook bookId={match.params.id} /> } />
+        </Switch>
       </div>
     )
   }
-
 }
 
 export default App;

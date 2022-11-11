@@ -5,7 +5,7 @@ import Card from "../Card/Card";
 const Books = ({ books, searchedBook }) => {
     console.log(books)
     let bookCards;
-    if (!searchedBook) {
+    if (searchedBook !== "") {
         bookCards = books.filter((book) => book.genre.toLowerCase().includes(searchedBook)
         );
     } else {

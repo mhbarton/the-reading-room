@@ -1,0 +1,60 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5em;
+    border: 10px solid #084C61;
+    margin: 0;
+    box-shadow: 0 0 10px grey;
+    position: relative;
+    background-color: #FCFCFD;
+  }
+  
+  .card:hover,
+  .card:focus{ 
+  transform: translateY(-0.25em);
+  }
+  
+  .image {  
+    object-fit: cover;  
+    width: 90%;
+    height: 55%;
+    min-width: 200px;
+    max-width: 340px;
+    margin-top: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+  a:visited {
+     color: black;
+  }
+  
+  .card-title, 
+  .card-author,
+  .card-type {
+    font-family: 'Poiret One', cursive;
+  }
+  
+  .card-author {
+    font-size: 1.2em;
+    overflow: auto;
+  }
+
+  .card-title {
+    font-size: 1.5em;
+  }
+  
+  .card-type {
+    font-size: 1.0em;
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */
+    margin-bottom: 10px;
+    margin-top: 3px;
+    overflow: auto;
+  }
