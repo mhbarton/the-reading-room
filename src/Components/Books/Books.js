@@ -3,7 +3,6 @@ import "./Books.css";
 import Card from "../Card/Card";
 
 const Books = ({ books, searchedBook }) => {
-    console.log(books)
     let bookCards;
     if (searchedBook !== "") {
         bookCards = books.filter((book) => book.genre.toLowerCase().includes(searchedBook)
@@ -11,9 +10,8 @@ const Books = ({ books, searchedBook }) => {
     } else {
         bookCards = books;
     };
-    console.log('1', bookCards)
 
-    const bookData = books.map((book) => {
+    const bookData = bookCards.map((book) => {
         return (
             <Card 
                 image={book.image}

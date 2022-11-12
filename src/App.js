@@ -34,11 +34,13 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className='main'>
         <Nav />
         <Switch>
           <Route exact path= '/' render={() => (
             <div>
+              <h1 className='welcome-message'> Learning to love to read starts at an early age and often starts at home.</h1>
+              <h1 className='welcome-message'>As you visit our site, we hope you are able to find some selelctions which help to nurture your child's love of learning </h1>
               <Search searchBook={this.searchBook} />
               <Books books={this.state.booksData} searchedBook={this.state.searchedBook}
               />

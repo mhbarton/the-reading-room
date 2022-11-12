@@ -10,8 +10,7 @@ const Card = ({ image, title, author, type, id }) => {
             </div>
             <div className='card-details'>
                 <h1 className='card-title'>{title}</h1>
-                <h2 className='card-author'>{author}</h2>
-                <h3 className='card-type'>{type}</h3>
+                <h2 className='card-author'>By: {author}</h2>
             </div>
         </Link>
     )

@@ -3,19 +3,149 @@
     display: flex;
     flex-direction: row;
     align-content: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
+    background-color: #084C61;
+    height: 65vh;
+    width: 75vw;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.overall-container  {
+    display: flex;
+    justify-content: center;;
+}
+.single-book-image {
+    height: 50vh;
+    width: 50vw;
+    margin-left: 1vh;
+    border-style: 2px double black;
 }
 
 .book-content-container {
-    margin-top: 30px;
     margin-left: 15px;
+    margin-right: 1vh;
+    background-color: #FCFCFD;
 }
 
-.books-home-btn {
-    position: absolute;
-    right: 0;
-    margin-right: 25px;
-    margin-bottom: 45px;
+.title {
+    font-size: 2.5em;
+    text-align: center;
 }
+
+.author {
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.book-details {
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.single-btn-choices {
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+.favorite-icon,
+.book-icon {
+    height: 4vh;
+    width: 2vw;
+    padding: 1vh;
+    filter: invert(21%) sepia(43%) saturate(881%) hue-rotate(148deg) brightness(103%) contrast(98%);
+}
+  /* .content-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 60px;
+    margin-top: 43vh;
+    position: relative;
+    background-color: #BBDFE0;
+    z-index: 1;
+    border: 2px solid #609998;
+  }
+  
+  .details-image{
+    display: flex;
+    align-items: center;
+    width: 625px;
+    height: 350px;
+    margin-top: 23vh;
+    margin-bottom: 2vh;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    
+  
+  .overview {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 5vh;
+    font-family: 'ABeeZee', sans-serif;
+  }
+  
+  .title {
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    font-size: 5vw;
+    font-family: 'Patrick Hand SC', cursive;
+  }
+  
+  .path-details,
+  .location {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'ABeeZee', sans-serif;
+  }
+  
+  .icon{
+    height: 20px;
+    width: 20px;
+  }
+
+  @media only screen and (min-width:300px) and (max-width:675px) {
+    .content-details-container {
+      margin-top: 30vh;
+    }
+    .details-image {
+      width: 280px;
+      height: 200px;
+      object-fit: cover;
+      
+    }    
+  } */
+  
+  /* @media only screen and (max-height:700px) {
+    .details-image:hidden {
+  }  
+    
+  .hidden {
+    display: none;
+  }
+  
+  .content-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 60px;
+    margin-top: 15vh;
+    position: relative;
+    background-color: #BBDFE0;
+    z-index: 1;
+    border: 2px solid #609998;
+    }
+  }     */
+     
