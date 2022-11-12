@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 import { Link } from 'react-router-dom';
 
-const Card = ({ image, title, author, type, id }) => {
+const Card = ({ image, title, author, id }) => {
     return (
         <Link to={`/${id}`} className= 'card' aria-label={title}>
             <div className='cover-image-container'>
