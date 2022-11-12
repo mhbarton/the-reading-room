@@ -1,6 +1,7 @@
 import React from "react";
 import "./Books.css";
 import Card from "../Card/Card";
+import PropTypes from 'prop-types';
 
 const Books = ({ books, searchedBook }) => {
     let bookCards;
@@ -27,3 +28,8 @@ const Books = ({ books, searchedBook }) => {
 }
 
 export default Books;
+
+Card.propTypes = {
+    books: PropTypes.array,
+    searchedBook: PropTypes.array,
+};
