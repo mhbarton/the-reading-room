@@ -1,0 +1,72 @@
+{
+  "kidBooks":  [
+    {
+        "id": 1,
+        "title": "The Very Hungry Caterpillar Eats Lunch A Colors Book",
+        "author": "Eric Carle",
+        "age_range": "0-2",
+        "review": "Introduce your littlest ones to a variety of foods and Eric Carle’s iconic art at the same time with this die-cut board book. Follow the Very Hungry Caterpillar through lunch meals from mac and cheese to sandwiches to tacos.",
+        "image": "https://tinybeans.com/wp-content/uploads/2022/02/9780593384114.jpg?w=250",
+        "genre": "Board",
+        "others": [
+        "The Very Hungry Caterpillar",
+        "Brown Bear, What Do You See?",
+        "The Tiny Seed"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Goodnight Goodnight Construction Site",
+        "author": "Sherri Duskey Rinker",
+        "age_range": "3-5",
+        "review": "Toddlers who love trucks and constructions sites will enjoy the simple bedtime story. Perhaps reading the book will make the bedtime routine go more smoothly. Parents will enjoy the cute and soothing story as well. The rhyming verse makes this story even more fun.",
+        "image": "https://m.media-amazon.com/images/I/61c7hni0MdL._AC_SY780_.jpg",
+        "genre": "Picture",
+        "others": [
+        "Road Crew Coming Through",
+        "Mighty, Mighty Construction Site",
+        "Construction Site Mission: Demolition"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "How to Catch a Unicorn",
+        "author": "Adam Wallace",
+        "age_range": "6-8",
+        "review": "This newest book in the New York Times bestselling How to Catch series features one of the world’s most elusive mythical creatures — the unicorn! Filled with zany traps and lots of rainbow unicorn fun, this is the unicorn book of the year! Can you catch the unicorn? You’ll have to use your brain, So set your traps and prep your team to pet that rainbow mane!",
+        "image": "https://m.media-amazon.com/images/P/1492669733.01._SCLZZZZZZZ_SX500_.jpg",
+        "genre": "Picture",
+        "others": [
+        "How to Catch a Mermaid",
+        "How to Catch a Dragon",
+        "How to Catch a Monster"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "If You Happen to Have a Dinosaur",
+        "author": "Linda Bailey",
+        "age_range": "0-2",
+        "review": "This delightfully absurd exploration of the domestic uses of dinosaurs -- and the things dinos just aren't good for at all -- is guaranteed to tickle funny bones and spark imaginations. If you read carefully, you'll learn how to make your dinosaur last a very long time.",
+        "image": "https://m.media-amazon.com/images/I/51Te8aejnuL._SY498_BO1,204,203,200_.jpg",
+        "genre": "Board",
+        "others": [
+        "Princesses Versus Dinosaurs",
+        "If Kids Ruled the World"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Giraffes Can’t Dance",
+        "author": "Giles Andreae",
+        "age_range": "0-2",
+        "review": "Giraffes Can't Dance is a touching tale of Gerald the giraffe, who wants nothing more than to dance. With light-footed rhymes and high-stepping illustrations, this tale is gentle inspiration for every child with dreams of greatness.",
+        "image": "https://m.media-amazon.com/images/I/51nN+r8A53L._SX389_BO1,204,203,200_.jpg",
+        "genre": "Board",
+        "others": [
+        "Commotion in the Ocean",
+        "Rumble in the Jungle"
+        ]
+    }
+]
+}
