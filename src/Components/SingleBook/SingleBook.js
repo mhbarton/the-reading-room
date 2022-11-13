@@ -44,7 +44,7 @@ class SingleBook extends Component {
           }
 
         return(
-            this.state.book ? <div className='overall-container'>
+            this.state.book && <div className='overall-container'>
                 <div className='book-details-container'>
                     <img src={book.image} className='single-book-image' alt={`image of ${book.title}`} />
                     <div className='book-content-container'>
@@ -64,8 +64,6 @@ class SingleBook extends Component {
                         </div>
                     </div>
                 </div>
-            </div>: <div>
-                {this.state.error && <h3>Oops, there was an error, please try again!</h3>}
             </div>
         );
     }

@@ -2,7 +2,8 @@ body {
   background-color: #FFEED8;
 }
 
-.welcome-message {
+.welcome-message-one,
+.welcome-message-two {
 font-family: 'Poiret One', cursive;
 font-size: 25px;
 text-align: center;
