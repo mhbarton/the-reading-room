@@ -35,6 +35,7 @@ Deployed using ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
 
 ## Future Iterations
+- Adjust responsiveness for mobile/desktop
 - Allow the user to delete a favorite if they change their mind. 
 - Add an ability for a user to recommend a book
 
