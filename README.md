@@ -6,10 +6,10 @@ Welcome to the Reading Room! Here we have provided an app that allows you to bro
 ![The Reading Room GIF First View](https://user-images.githubusercontent.com/102000070/201578624-8a6be4e0-4cea-44bf-89b2-4e79d7ec1073.gif)
 
 
-![Paw Paths GIF Single Path](https://user-images.githubusercontent.com/101376200/200139547-931b17c5-e459-4cb2-b3f4-b577a1f6e062.gif)
+![The Reading Room GIF Single Path](https://user-images.githubusercontent.com/102000070/201579852-129229b4-7fa6-4531-a9aa-e75b5b601530.gif)
 
 
-![Paw Paths GIF Search Feature](https://user-images.githubusercontent.com/102000070/201579007-3a9fcc18-6c9c-42f2-a158-0ff4a4e0d132.gif)
+![The Reading Room GIF Search Feature](https://user-images.githubusercontent.com/102000070/201579007-3a9fcc18-6c9c-42f2-a158-0ff4a4e0d132.gif)
 
 ## Deployed Link
 Check out our project here!
