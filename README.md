@@ -42,12 +42,11 @@ Deployed using ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style
 ### Wins
 - Creating and deploying my own little express server with the data I wanted
 - Fully functioning React app
-- Mobile and responsive design
 - 100% Accessibility rating keeping quality testing through our development cycle
 
 ### Challenges
 - Cypress testing on extension (favoriting feature)
-- CSS responsiveness (noticed a couple of areas it could be improved upon)
+- CSS responsiveness- struggled with media query
 
 ## Contributor
 Marianne Barton [github](https://github.com/mhbarton) | [LinkedIn](https://www.linkedin.com/in/marianne-barton-1307/)
