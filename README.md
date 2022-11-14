@@ -3,7 +3,7 @@
 ## Overview
 Welcome to the Reading Room! Here we have provided an app that allows you to browse a collection of children's book, search for a specific type either picture or board, and view the individual details of a book. The Reading Room is an app which promotes finding engaging books to promote early childhood literacy starting at home. This is a solo project assigned by [Turing School of Software and Design](https://frontend.turing.edu/). This project gave us the opportunity to show our new skills with React, Router, Cypress and even Express, if there was not an API which fit what we envisioned. View the project specs here: [project description](https://frontend.turing.edu/projects/module-3/showcase.html). Please be aware the backend express server is deployed on Heroku and could take a minute to warm up before displaying data; if it does not pop up immediately go ahead and refresh! 
 
-![Paw Paths GIF First View](https://user-images.githubusercontent.com/101376200/200139543-552e00a4-b599-4f2b-b87c-6d8e8c7e6069.gif)
+![The Reading Room GIF First View](https://user-images.githubusercontent.com/102000070/201578624-8a6be4e0-4cea-44bf-89b2-4e79d7ec1073.gif)
 
 
 ![Paw Paths GIF Single Path](https://user-images.githubusercontent.com/101376200/200139547-931b17c5-e459-4cb2-b3f4-b577a1f6e062.gif)
