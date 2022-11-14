@@ -13,7 +13,7 @@ Welcome to the Reading Room! Here we have provided an app that allows you to bro
 
 ## Deployed Link
 Check out our project here!
-[The Reading Room](https://paw-paths-q7habzwyb-bethwprojects.vercel.app/)
+[The Reading Room](https://the-reading-room.vercel.app/)
 
 Deployed using ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
