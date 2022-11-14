@@ -3,7 +3,7 @@ import "./Books.css";
 import Card from "../Card/Card";
 import PropTypes from 'prop-types';
 
-const Books = ({ books, searchedBook }) => {
+const Books = ({ books, searchedBook, addFavoriteBook }) => {
     let bookCards;
     if (searchedBook !== "") {
         bookCards = books.filter((book) => book.genre.toLowerCase().includes(searchedBook)
@@ -21,6 +21,7 @@ const Books = ({ books, searchedBook }) => {
                 type={book.genre}
                 id={book.id}
                 key={book.id}
+                addFavoriteBook={addFavoriteBook}
             />
         )
     })

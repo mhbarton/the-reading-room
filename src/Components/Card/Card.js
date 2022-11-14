@@ -5,15 +5,17 @@ import PropTypes from 'prop-types';
 
 const Card = ({ image, title, author, id }) => {
     return (
-        <Link to={`/${id}`} className= 'card' aria-label={title}>
-            <div className='cover-image-container'>
-                <img className='image' src={image} alt={`image of ${title}`} />
-            </div>
-            <div className='card-details'>
-                <h1 className='card-title'>{title}</h1>
-                <h2 className='card-author'>By: {author}</h2>
-            </div>
-        </Link>
+        <div className="whole-card">
+            <Link to={`/${id}`} className= 'card' aria-label={title}>
+                <div className='cover-image-container'>
+                    <img className='image' src={image} alt={`image of ${title}`} />
+                </div>
+                <div className='card-details'>
+                    <h1 className='card-title'>{title}</h1>
+                    <h2 className='card-author'>By: {author}</h2>
+                </div>
+            </Link>
+        </div>
     )
 }
 

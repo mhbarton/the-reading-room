@@ -6,13 +6,15 @@ import Books from "./Components/Books/Books";
 import SingleBook from './Components/SingleBook/SingleBook';
 import Nav from "./Components/Nav/Nav";
 import Search from "./Components/Search/Search";
+import Favorites from './Components/Favorites/Favorites';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
       booksData: [],
-      searchedBook: ""
+      searchedBook: "",
+      favBook: [],
     };
   }
 
@@ -30,6 +32,11 @@ class App extends Component {
 
   searchBook = (input) => {
     this.setState({ searchedBook: input });
+  };
+
+  addFavoriteBook = (id) => {
+    const findFavorites = this.state.booksData.find((book) => book.id === id);
+    this.setState({ favBook: [...this.state.favBook, findFavorites] });
   };
 
   render() {
@@ -50,7 +57,9 @@ class App extends Component {
             </div>
             )} 
            />
-          <Route path='/:id' render={({ match }) => <SingleBook bookId={match.params.id} /> } />
+          <Route exact path='/favorites' render={() => (<Favorites favBook={this.state.favBook} addFavoriteBook={this.addFavoriteBook} deleteFavoriteBook={this.deleteFavoriteBook}/> )} />
+          <Route path='/:id' render={({ match }) => (<SingleBook bookId={match.params.id} addFavoriteBook={this.addFavoriteBook} /> )} />
+
         </Switch>
       </div>
     )

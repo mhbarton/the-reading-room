@@ -4,6 +4,6 @@ describe('Error handling flows', () => {
       forceNetworkError: true
     }).as('error')
     cy.visit('http://localhost:3000')
-    cy.get('[class="error-message"]').contains('Sorry, no books available.')
+    cy.get('.error-message').contains('Sorry, no books are available.')
   });
 });

@@ -1,0 +1,18 @@
+{
+    "kidBooks":  [
+      {
+          "id": 1,
+          "title": "The Very Hungry Caterpillar Eats Lunch A Colors Book",
+          "author": "Eric Carle",
+          "age_range": "0-2",
+          "review": "Introduce your littlest ones to a variety of foods and Eric Carle’s iconic art at the same time with this die-cut board book. Follow the Very Hungry Caterpillar through lunch meals from mac and cheese to sandwiches to tacos.",
+          "image": "https://tinybeans.com/wp-content/uploads/2022/02/9780593384114.jpg?w=250",
+          "genre": "Board",
+          "others": [
+          "The Very Hungry Caterpillar",
+          "Brown Bear, What Do You See?",
+          "The Tiny Seed"
+          ]
+      }
+    ]
+}

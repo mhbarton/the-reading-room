@@ -1,8 +1,8 @@
 describe('Single Book page flows', () => {
   beforeEach(() => {
     cy.intercept('GET', 'https://the-reading-room-api.herokuapp.com/api/v1/childrensbooks', {
-      fixture: "sampleData.json",
-    }).as("details")
+      fixture: "sampleSpecificBook.json",
+    }).as("singleDetails")
     cy.visit('http://localhost:3000/1')
   });
 
@@ -19,7 +19,10 @@ describe('Single Book page flows', () => {
     .get('.book-details').contains('Review: Introduce your littlest ones to a variety of foods and Eric Carle’s iconic art at the same time with this die-cut board book. Follow the Very Hungry Caterpillar through lunch meals from mac and cheese to sandwiches to tacos.')
     .get('.book-details').contains('Other Publications: The Very Hungry Caterpillar, Brown Bear, What Do You See?, The Tiny Seed')
     .get('.books-home-btn').contains('Go Home')
-    .get('.books-home-btn').click()
+  })
+
+  it('Should let the user click the go home and return to homepage', () => {
+    cy.get('.books-home-btn').click()
     .visit('http://localhost:3000/').wait(2000)
     .url().should('eq', 'http://localhost:3000/')
   })

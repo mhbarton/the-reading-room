@@ -2,16 +2,17 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { fetchData } from '../../APIcall';
 import './SingleBook.css';
-import heart from '../../Images/heart.png';
 import openBook from '../../Images/open-book.png';
+import heart from '../../Images/heart.png';
+import PropTypes from 'prop-types';
 
 
 class SingleBook extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state={
             book: null,
-            error: ''
+            error: '',
         }
     }
 
@@ -29,10 +30,9 @@ class SingleBook extends Component {
         this.setState({ searchedBook: input });
       };
 
-
-    render() {
+    render() { 
         const book = this.state.book;
-  
+
         const dividePublications = (book) => {
             if (book.others.length > 0) {
               return book.others
@@ -55,9 +55,7 @@ class SingleBook extends Component {
                         <h4 className="book-details">{`Review: ${book.review}`}</h4>
                         <h4 className="book-details">{`Other Publications: ${dividePublications(book)}`}</h4>
                         <div className='single-btn-choices'>
-                            <Link to={'/'}>
-                                <button className='favorites-btn'><img src={heart} className='favorite-icon' alt='heart to favorite' />Add to Favorites!</button>
-                            </Link>
+                             <button className='favorites-btn' onClick={() => this.props.addFavoriteBook(book.id)}><img src={heart} className='favorite-icon' alt='heart to favorite' />Add to Favorites!</button>
                             <Link to={'/'}>
                                 <button className='books-home-btn'><img src={openBook} className='book-icon' alt='open book' />Go Home</button>
                             </Link>
@@ -70,3 +68,7 @@ class SingleBook extends Component {
 };
 
 export default SingleBook;
+
+SingleBook.propTypes = {
+    addFavoriteBook: PropTypes.func,
+}

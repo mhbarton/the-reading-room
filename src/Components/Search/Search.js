@@ -14,7 +14,6 @@ class Search extends Component {
     }
 
     render() {
-        console.log(this.props)
         return(
             <div className='search-btn-container'>
                 <img className='bookshelf-img' src={bookshelf} alt='books by search' />
