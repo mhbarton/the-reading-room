@@ -9,7 +9,7 @@ Welcome to the Reading Room! Here we have provided an app that allows you to bro
 ![Paw Paths GIF Single Path](https://user-images.githubusercontent.com/101376200/200139547-931b17c5-e459-4cb2-b3f4-b577a1f6e062.gif)
 
 
-![Paw Paths GIF Search Feature](https://user-images.githubusercontent.com/101376200/200139577-f321b988-9929-4611-8122-7f82bc30492e.gif)
+![Paw Paths GIF Search Feature](https://user-images.githubusercontent.com/102000070/201579007-3a9fcc18-6c9c-42f2-a158-0ff4a4e0d132.gif)
 
 ## Deployed Link
 Check out our project here!
