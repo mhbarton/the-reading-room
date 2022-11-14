@@ -30,7 +30,7 @@ const Favorites = ({ favBook, addFavoriteBook }) => {
     return (
         <div>
             <div className='favorites-header-container'>
-                <img className='bookshelf-img' src={bookshelf} alt='books by search' />
+                <img className='bookshelf--fav-img' src={bookshelf} alt='books by search' />
                 <h1 className='favorites-title'>Favorites</h1>
                 <Link to={'/'}>
                     <button className='books-home-btn'><img src={openBook} className='book-icon' alt='open book' />Go Home</button>
@@ -38,7 +38,7 @@ const Favorites = ({ favBook, addFavoriteBook }) => {
             </div>
             <div className='favorites-container'>
                 <div className='fav-container'>{favChoices}</div>
-                <div>{noFavChoices}</div>
+                <div className='no-choices'>{noFavChoices}</div>
             </div>
         </div>
     );

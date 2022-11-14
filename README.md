@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 📖 The Reading Room
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Welcome to the Reading Room! Here we have provided an app that allows you to browse a collection of children's book, search for a specific type either picture or board, and view the individual details of a book. The Reading Room is an app which promotes finding engaging books to promote early childhood literacy starting at home. This is a solo project assigned by [Turing School of Software and Design](https://frontend.turing.edu/). This project gave us the opportunity to show our new skills with React, Router, Cypress and even Express, if there was not an API which fit what we envisioned. View the project specs here: [project description](https://frontend.turing.edu/projects/module-3/showcase.html). Please be aware the backend express server is deployed on Heroku and could take a minute to warm up before displaying data; if it does not pop up immediately go ahead and refresh! 
 
-## Available Scripts
+![Paw Paths GIF First View](https://user-images.githubusercontent.com/101376200/200139543-552e00a4-b599-4f2b-b87c-6d8e8c7e6069.gif)
 
-In the project directory, you can run:
 
-### `npm start`
+![Paw Paths GIF Single Path](https://user-images.githubusercontent.com/101376200/200139547-931b17c5-e459-4cb2-b3f4-b577a1f6e062.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Paw Paths GIF Search Feature](https://user-images.githubusercontent.com/101376200/200139577-f321b988-9929-4611-8122-7f82bc30492e.gif)
 
-### `npm test`
+## Deployed Link
+Check out our project here!
+[The Reading Room](https://paw-paths-q7habzwyb-bethwprojects.vercel.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Deployed using ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-### `npm run build`
+## Set Up
+1. Fork this repo
+2. Clone the repo to your local machine
+3. `cd` into the root of the project directory
+4. Run `npm install`
+5. Run `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) |
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) |
+![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e) |
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) |
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) |
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) |
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) |
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future Iterations
+- Allow the user to delete a favorite if they change their mind. 
+- Add an ability for a user to recommend a book
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dev Notes
+### Wins
+- Creating and deploying my own little express server with the data I wanted
+- Fully functioning React app
+- Mobile and responsive design
+- 100% Accessibility rating keeping quality testing through our development cycle
 
-### `npm run eject`
+### Challenges
+- Cypress testing on extension (favoriting feature)
+- CSS responsiveness (noticed a couple of areas it could be improved upon)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributor
+Marianne Barton [github](https://github.com/mhbarton) | [LinkedIn](https://www.linkedin.com/in/marianne-barton-1307/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Credit
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) |
+![Flaticon](https://img.shields.io/badge/FlatIcon-100000?style=for-the-badge&logo=&logoColor=3EDD44&labelColor=black&color=black) |
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) |
+![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

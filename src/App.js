@@ -7,6 +7,8 @@ import SingleBook from './Components/SingleBook/SingleBook';
 import Nav from "./Components/Nav/Nav";
 import Search from "./Components/Search/Search";
 import Favorites from './Components/Favorites/Favorites';
+import PageNotFound from './Components/PageNotFound/PageNotFound';
+import loadingBook from '../src/Images/loading_book.png';
 
 class App extends Component {
   constructor() {
@@ -43,9 +45,13 @@ class App extends Component {
     return (
       <div className='main'>
         <Nav />
+        <div className='loader-container'>
+          {this.state.loading && <img src={loadingBook} className='loader' alt='opening book' />} 
+        </div>
         {!this.state.booksData.length && (
           <h2 className="error-message">{this.state.error}</h2>
         )}
+
         <Switch>
           <Route exact path= '/' render={() => (
             <div>
@@ -59,7 +65,7 @@ class App extends Component {
            />
           <Route exact path='/favorites' render={() => (<Favorites favBook={this.state.favBook} addFavoriteBook={this.addFavoriteBook} deleteFavoriteBook={this.deleteFavoriteBook}/> )} />
           <Route path='/:id' render={({ match }) => (<SingleBook bookId={match.params.id} addFavoriteBook={this.addFavoriteBook} /> )} />
-
+          <Route path='*' component={PageNotFound} />
         </Switch>
       </div>
     )

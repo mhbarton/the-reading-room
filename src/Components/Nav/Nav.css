@@ -4,15 +4,20 @@
     align-items: center;
     justify-content: center;
     height: 150px;
+    margin-bottom: 20px;
 }
 
 .site-title {
-    height: 120px; 
-    width: 325px;
+    height: 135px; 
+    width: 375px;
 }
 
 .site-design {
-    /* filter: invert(27%) sepia(5%) saturate(3516%) hue-rotate(334deg) brightness(92%) contrast(91%); */
     height: 120px;
     width: 325px;
+}
+
+.all-favorites-btn {
+    position: absolute;
+    right: 0;
 }

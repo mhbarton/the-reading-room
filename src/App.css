@@ -11,6 +11,10 @@ margin-left: 50px;
 margin-right: 50px;
 }
 
+.loader {
+  filter: invert(21%) sepia(43%) saturate(881%) hue-rotate(148deg) brightness(103%) contrast(98%);
+}
+
 .App {
   text-align: center;
 }

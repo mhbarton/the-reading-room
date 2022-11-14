@@ -60,3 +60,34 @@ button:focus {
 .bookshelf-img {
     height: 65px;
 } 
+
+@media only screen and (min-width:300px) and (max-width:480px) {
+  .search-btn-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFEED8;
+    height: 65px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 25px;
+}
+button {
+  height: 4vh;
+  font-size: 1.5vh;
+  width: 15vw;
+}
+
+.bookshelf-img {
+  height: 10vh;
+  display: flex;
+  width: 250px;
+} 
+}
+
+/* @media only screen and (min-width:481px) and (max-width:768px) {
+}
+
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+} */

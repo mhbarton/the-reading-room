@@ -58,94 +58,23 @@
     padding: 1vh;
     filter: invert(21%) sepia(43%) saturate(881%) hue-rotate(148deg) brightness(103%) contrast(98%);
 }
-  /* .content-details-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 35px;
-    margin-left: 35px;
-    margin-bottom: 60px;
-    margin-top: 43vh;
-    position: relative;
-    background-color: #BBDFE0;
-    z-index: 1;
-    border: 2px solid #609998;
-  }
-  
-  .details-image{
-    display: flex;
-    align-items: center;
-    width: 625px;
-    height: 350px;
-    margin-top: 23vh;
-    margin-bottom: 2vh;
-    z-index: 2;
-    position: absolute;
-    top: 0;
-    
-  
-  .overview {
-    margin-left: 15vw;
-    margin-right: 15vw;
-    margin-bottom: 5vh;
-    font-family: 'ABeeZee', sans-serif;
-  }
-  
-  .title {
-    margin-bottom: 1vh;
-    margin-top: 2vh;
-    font-size: 5vw;
-    font-family: 'Patrick Hand SC', cursive;
-  }
-  
-  .path-details,
-  .location {
-    margin-left: 15vw;
-    margin-right: 15vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'ABeeZee', sans-serif;
-  }
-  
-  .icon{
-    height: 20px;
-    width: 20px;
-  }
 
-  @media only screen and (min-width:300px) and (max-width:675px) {
-    .content-details-container {
-      margin-top: 30vh;
+@media only screen and (min-width: 270px) and (max-width:700px) {
+     
+  .book-details-container {
+    margin-top: 1vh;
     }
-    .details-image {
-      width: 280px;
-      height: 200px;
-      object-fit: cover;
-      
-    }    
-  } */
+
+    .book-details-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 1vh;
+      margin-top: 25vh;
+      margin-left: 250px;
+      width: 550vw;
+    }
   
-  /* @media only screen and (max-height:700px) {
-    .details-image:hidden {
   }  
-    
-  .hidden {
-    display: none;
-  }
-  
-  .content-details-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 35px;
-    margin-left: 35px;
-    margin-bottom: 60px;
-    margin-top: 15vh;
-    position: relative;
-    background-color: #BBDFE0;
-    z-index: 1;
-    border: 2px solid #609998;
-    }
-  }     */
+
      

@@ -46,7 +46,7 @@ class SingleBook extends Component {
         return(
             this.state.book && <div className='overall-container'>
                 <div className='book-details-container'>
-                    <img src={book.image} className='single-book-image' alt={`image of ${book.title}`} />
+                    <img src={book.image} className='single-book-image hidden' alt={`image of ${book.title}`} />
                     <div className='book-content-container'>
                         <h2 className='title'> {book.title}</h2>
                         <h3 className='author'>{`By: ${book.author}`}</h3>
